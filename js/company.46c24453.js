@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["company"],{8799:function(n,e,t){"use strict";t.r(e);var o=function(){var n=this,e=n.$createElement,t=n._self._c||e;return t("h1",[n._v("Company Page")])},a=[],c={components:{}},l=c,p=t("2877"),s=Object(p["a"])(l,o,a,!1,null,null,null);e["default"]=s.exports}}]);
+//# sourceMappingURL=company.46c24453.js.map
