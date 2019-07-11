@@ -16,9 +16,20 @@ export default new Router({
       path: '/community',
       name: 'community',
       component: () => import(/* webpackChunkName: "community" */ './views/Community.vue')
+    },
+    {
+      path: '/company',
+      name: 'company',
+      component: () => import(/* webpackChunkName: "company" */ './views/Company.vue')
+    },
+    {
+      path: '/:mode/:area',
+      name: 'area',
+      props: true,
+      component: () => import(/* webpackChunkName: "area" */ './views/Area.vue')
     }
   ],
-  scrollBehavior (to) {
+  scrollBehavior(to) {
     if (to.hash) {
       return {
         selector: to.hash
