@@ -11,6 +11,18 @@ export default new Router({
       path: '/',
       name: 'home',
       component: () => import(/* webpackChunkName: "home" */ './views/Home.vue')
+    },
+    {
+      path: '/community',
+      name: 'community',
+      component: () => import(/* webpackChunkName: "community" */ './views/Community.vue')
     }
-  ]
+  ],
+  scrollBehavior (to) {
+    if (to.hash) {
+      return {
+        selector: to.hash
+      }
+    }
+  }
 })
