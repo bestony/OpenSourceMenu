@@ -104,6 +104,120 @@
                     "email": "igdshare@igdshare.org",
                     "meetup": null,
                     "googlegroup": null
+                },
+                {
+                    "id": "tgadc",
+                    "homepage": "https://www.facebook.com/groups/tgadc/",
+                    "image": "/data/images/tgadc.jpg",
+                    "twitter": null,
+                    "facebook": "https://www.facebook.com/groups/tgadc/",
+                    "github": null,
+                    "email": null,
+                    "meetup": null,
+                    "googlegroup": null,
+                    "lang": {
+                        "en": {
+                            "name": "Taiwan Game App Developer Community",
+                            "desc": "Taiwan Game App Developer Community"
+                        }
+                    }
+                },
+                {
+                    "id": "igda_taiwan",
+                    "homepage": "http://igda.tw/#tabs=events",
+                    "image": "/data/images/igda_taiwan.png",
+                    "twitter": null,
+                    "facebook": null,
+                    "github": null,
+                    "email": "jslin@igda.tw",
+                    "meetup": null,
+                    "googlegroup": null,
+                    "lang": {
+                        "en": {
+                            "name": "International Game Developers Association",
+                            "desc": "International Game Developers Association"
+                        }
+                    }
+                },
+                {
+                    "id": "webduino",
+                    "homepage": "https://www.facebook.com/groups/797598203642584/",
+                    "image": "/data/images/webduino.jpg",
+                    "twitter": null,
+                    "facebook": "https://www.facebook.com/groups/797598203642584/",
+                    "github": null,
+                    "email": null,
+                    "meetup": null,
+                    "lang": {
+                        "en": {
+                            "name": "Webduino 技術討論社團",
+                            "desc": "Webduino 技術討論社團"
+                        }
+                    }
+                },
+                {
+                    "id": "raspberrypi.tw",
+                    "homepage": "https://www.facebook.com/groups/raspberrypi.tw/",
+                    "image": "/data/images/raspberrypi.tw.jpg",
+                    "twitter": null,
+                    "facebook": "https://www.facebook.com/groups/raspberrypi.tw/",
+                    "github": null,
+                    "email": null,
+                    "meetup": null,
+                    "lang": {
+                        "en": {
+                            "name": "Raspberry Pi@TW",
+                            "desc": "Raspberry Pi@TW"
+                        }
+                    }
+                },
+                {
+                    "id": "respberrypi_tw",
+                    "homepage": "https://www.raspberrypi.com.tw/",
+                    "image": "/data/images/respberrypi_tw.jpg",
+                    "twitter": null,
+                    "facebook": null,
+                    "github": null,
+                    "email": "service@raspberrypi.com.tw",
+                    "meetup": null,
+                    "lang": {
+                        "en": {
+                            "name": "Raspberry Pi Taiwan",
+                            "desc": "Raspberry Pi Taiwan"
+                        }
+                    }
+                },
+                {
+                    "id": "astroguide_pi",
+                    "homepage": "https://www.facebook.com/groups/1754166918205014/",
+                    "image": "/data/images/astroguide_pi.jpg",
+                    "twitter": null,
+                    "facebook": "https://www.facebook.com/groups/1754166918205014/",
+                    "github": null,
+                    "email": null,
+                    "meetup": null,
+                    "lang": {
+                        "en": {
+                            "name": "Astroguide π drift development project",
+                            "description": "Astroguide π drift development project"
+                        }
+                    }
+                },
+                {
+                    "id": "study4tw",
+                    "homepage": "http://study4.tw",
+                    "image": "/data/images/study4tw.jpg",
+                    "twitter": null,
+                    "facebook": "https://www.facebook.com/Study4.tw",
+                    "github": null,
+                    "email": null,
+                    "meetup": null,
+                    "lang": {
+                        "en": {
+                            "name": "Study4Tw",
+                            "desc": "Study4Tw"
+                        }
+                    }
                 }
             ]
         },
