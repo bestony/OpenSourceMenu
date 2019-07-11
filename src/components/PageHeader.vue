@@ -61,6 +61,15 @@
               <b-icon icon="facebook" size="is-medium"></b-icon>
             </div>
           </div>
+          <div class="navbar-item">
+            <b-dropdown aria-role="list" position="is-bottom-left">
+              <button class="button is-primary" slot="trigger">
+                <span>{{lang}}</span>
+                <b-icon icon="menu-down"></b-icon>
+              </button>
+              <b-dropdown-item @click="changeLang(lang.name)" data-id="lang.name" v-for="lang in langList"  v-bind:key="lang.name" aria-role="listitem">{{lang.flag}} {{lang.displayName}}</b-dropdown-item>
+            </b-dropdown>
+          </div>
         </div>
       </div>
     </nav>
@@ -98,8 +107,35 @@ export default {
           name: "Taiwan",
           path: "/company/tw"
         }
+      ],
+      langList:[
+        {
+          displayName:"English",
+          name:"en",
+          flag:"🇺🇸",
+        },
+        {
+          displayName:"简体中文",
+          name:"zh-cn",
+          flag:"🇨🇳",
+        },
+        {
+          displayName:"繁体中文",
+          name:"zh-tw",
+          flag:"🇹🇼",
+        }
       ]
     };
+  },
+  computed: {
+    lang () {
+      return this.$store.state.lang
+    }
+  },
+  methods:{
+    changeLang(e){
+      this.$store.commit("changeLang",e)  
+    }
   }
 };
 </script>
