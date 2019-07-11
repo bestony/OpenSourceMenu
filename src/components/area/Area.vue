@@ -63,4 +63,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.area-item{
+  margin-bottom: 40px;
+}
 </style>
