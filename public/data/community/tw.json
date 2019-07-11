@@ -34,7 +34,59 @@
                     "facebook": null,
                     "github": null,
                     "meetup": null,
-                    "googlegroup":null
+                    "googlegroup": null,
+                    "email": null
+                },
+                {
+                    "id": "ansible_taipei",
+                    "lang": {
+                        "en": {
+                            "name": "Ansible Taipei",
+                            "desc": "Ansible Taipei"
+                        }
+                    },
+                    "homepage": "https://www.meetup.com/Ansible-Taipei/",
+                    "image": "https://i.loli.net/2019/07/07/5d21ee381e03f51359.jpeg",
+                    "twitter": null,
+                    "facebook": null,
+                    "github": null,
+                    "meetup": "https://www.meetup.com/Ansible-Taipei",
+                    "googlegroup": null,
+                    "email": null
+                },
+                {
+                    "id": "gdg_taipei",
+                    "lang": {
+                        "en": {
+                            "name": "GDG Taipei",
+                            "desc": "GDG Taipei"
+                        }
+                    },
+                    "homepage": "https://www.gdg-taipei.org/",
+                    "image": "https://i.loli.net/2019/07/07/5d21f6fc963d737435.png",
+                    "twitter": "https://twitter.com/Taipei_GTUG",
+                    "facebook": null,
+                    "github": null,
+                    "meetup": "https://www.meetup.com/GDGTaipei/",
+                    "googlegroup": null,
+                    "email": "littleq@gdg-taipei.org"
+                },
+                {
+                    "id": "arduinotaipei",
+                    "lang": {
+                        "en": {
+                            "name": "Arduino Taipei",
+                            "desc": "Arduino Taipei"
+                        }
+                    },
+                    "homepage": "https://www.facebook.com/groups/arduinotaipei/",
+                    "image": "https://i.loli.net/2019/07/07/5d21f926b33ff50334.jpg",
+                    "twitter": null,
+                    "facebook": "https://www.facebook.com/groups/arduinotaipei/",
+                    "github": null,
+                    "email": null,
+                    "meetup": null,
+                    "googlegroup": null
                 }
             ]
         }
