@@ -2,7 +2,9 @@
   <div class="page-header">
     <nav class="navbar has-shadow is-spaced" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <router-link class="navbar-item" to="/"> <img src="@/assets/logo.png" width="112" height="28" /></router-link>
+        <router-link class="navbar-item" to="/">
+          <img src="@/assets/logo.png" width="112" height="28" />
+        </router-link>
         <a
           role="button"
           class="navbar-burger burger"
@@ -24,20 +26,27 @@
             <router-link class="navbar-link" to="/community">Community</router-link>
 
             <div class="navbar-dropdown">
-              <a class="navbar-item">China Mainland</a>
-              <a class="navbar-item">Taiwan</a>
-              <a class="navbar-item">Hongkong</a>
+              <router-link
+                class="navbar-item"
+                :to="community.path"
+                v-bind:key="community.path"
+                v-for="community in communityList"
+              >{{community.name}}</router-link>
+
               <hr class="navbar-divider" />
               <router-link class="navbar-item" to="/community">More...</router-link>
             </div>
           </div>
           <div class="navbar-item has-dropdown is-hoverable">
-             <router-link class="navbar-link" to="/company">Company</router-link>
+            <router-link class="navbar-link" to="/company">Company</router-link>
 
             <div class="navbar-dropdown">
-              <a class="navbar-item">China Mainland</a>
-              <a class="navbar-item">Taiwan</a>
-              <a class="navbar-item">Hongkong</a>
+              <router-link
+                class="navbar-item"
+                :to="company.path"
+                v-bind:key="company.path"
+                v-for="company in companyList"
+              >{{company.name}}</router-link>
               <hr class="navbar-divider" />
               <router-link class="navbar-item" to="/company">More...</router-link>
             </div>
@@ -59,5 +68,38 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      communityList: [
+        {
+          name: "China Mainland",
+          path: "/community/cn"
+        },
+        {
+          name: "Hong Kong",
+          path: "/community/hk"
+        },
+        {
+          name: "Taiwan",
+          path: "/community/tw"
+        }
+      ],
+      companyList: [
+        {
+          name: "China Mainland",
+          path: "/company/cn"
+        },
+        {
+          name: "Hong Kong",
+          path: "/company/hk"
+        },
+        {
+          name: "Taiwan",
+          path: "/company/tw"
+        }
+      ]
+    };
+  }
+};
 </script>
