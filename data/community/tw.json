@@ -218,6 +218,134 @@
                             "desc": "Study4Tw"
                         }
                     }
+                },
+                {
+                    "id": "okfn_tw",
+                    "homepage": "https://tw.okfn.org/",
+                    "image": "/data/images/okfn_tw.jpg",
+                    "twitter": "https://twitter.com/oktaiwanonline",
+                    "facebook": "https://www.facebook.com/groups/oktaiwan/",
+                    "github": null,
+                    "email": null,
+                    "meetup": null,
+                    "lang": {
+                        "en": {
+                            "name": "Open Knowledge Taiwan",
+                            "desc": "Open Knowledge Taiwan"
+                        }
+                    }
+                },
+                {
+                    "id": "g0v_tw",
+                    "homepage": "http://g0v.tw/",
+                    "image": "/data/images/g0v.png",
+                    "twitter": null,
+                    "facebook": "https://www.facebook.com/groups/g0v.general/",
+                    "github": null,
+                    "email": null,
+                    "meetup": null,
+                    "lang": {
+                        "en": {
+                            "name": "g0v",
+                            "desc": "g0v.tw is an online community that pushes information transparency, focusing on developing information platform and tools for the citizens to participate in society. "
+                        }
+                    }
+                },
+                {
+                    "id": "sdnds_tw",
+                    "homepage": "http://sdnds.tw/",
+                    "image": "/data/images/sdnds_tw.jpg",
+                    "twitter": null,
+                    "facebook": "https://www.facebook.com/groups/sdnds.tw/",
+                    "github": null,
+                    "email": null,
+                    "meetup": null,
+                    "lang": {
+                        "en": {
+                            "name": "SDN Developer Society",
+                            "desc": "Taiwan Software Defined Networking Developer Society"
+                        }
+                    }
+                },
+                {
+                    "id": "juluosdev",
+                    "homepage": "https://www.juluos.org/",
+                    "image": "/data/images/juluosdev.jpg",
+                    "twitter": null,
+                    "facebook": "https://www.facebook.com/groups/224024274384934/",
+                    "github": "http://github.com/juluosdev",
+                    "email": "ben@staros.mobi",
+                    "meetup": null,
+                    "lang": {
+                        "en": {
+                            "name": "JuluOSDev",
+                            "desc": "JuluOSDev"
+                        }
+                    }
+                },
+                {
+                    "id": "openstack_tw_user_group",
+                    "homepage": "https://www.facebook.com/OpenStackTW",
+                    "image": "/data/images/openstack_tw_user_group.png",
+                    "twitter": null,
+                    "facebook": "https://www.facebook.com/groups/180981535428325",
+                    "github": null,
+                    "email": "openstack-tw@lists.openstack.org",
+                    "meetup": null,
+                    "lang": {
+                        "en": {
+                            "name": "OpenStack Taiwan User Group",
+                            "desc": "OpenStack Taiwan User Group"
+                        }
+                    }
+                },
+                {
+                    "id": "hadoop_tw",
+                    "homepage": "https://www.facebook.com/groups/hadoop.tw/",
+                    "image": "/data/images/hadoop_tw.jpg",
+                    "twitter": null,
+                    "facebook": "https://www.facebook.com/groups/hadoop.tw/",
+                    "github": null,
+                    "email": null,
+                    "meetup": null,
+                    "lang": {
+                        "en": {
+                            "name": "Hadoop TW",
+                            "desc": "Taiwan Hadoop User Group"
+                        }
+                    }
+                },
+                {
+                    "id": "cloud_tw",
+                    "homepage": "http://www.cloudtw.org/",
+                    "image": "/data/images/cloud_tw.jpg",
+                    "twitter": null,
+                    "facebook": "http://www.facebook.com/CloudTW.org",
+                    "github": null,
+                    "email": "pofeng@gmail.com",
+                    "meetup": null,
+                    "lang": {
+                        "en": {
+                            "name": "Cloud TW",
+                            "desc": "Ansible Taipei"
+                        }
+                    }
+                },
+                {
+                    "id": "devops_tw",
+                    "homepage": "https://www.facebook.com/groups/DevOpsTaiwan/",
+                    "image": "/data/images/devops_tw.png",
+                    "twitter": null,
+                    "facebook": "https://www.facebook.com/groups/DevOpsTaiwan/",
+                    "github": null,
+                    "email": null,
+                    "meetup": null,
+                    "lang": {
+                        "en": {
+                            "name": "DevOps Taiwan",
+                            "desc": "DevOps Taiwan"
+                        }
+                    }
                 }
             ]
         },
@@ -232,6 +360,22 @@
             "latitude": "23.007896",
             "flag": "😃",
             "items": [
+                {
+                    "id": "mosut",
+                    "homepage": "http://mosut.org/",
+                    "image": "/data/images/mosut.jpg",
+                    "twitter": null,
+                    "facebook": "https://www.facebook.com/groups/mosut/",
+                    "github": null,
+                    "email": null,
+                    "meetup": null,
+                    "lang": {
+                        "en": {
+                            "name": "Meet Open Source Users in Tainan",
+                            "description": "Meet Open Source Users in Tainan"
+                        }
+                    }
+                },
                 {
                     "id": "arduinotainan",
                     "lang": {
