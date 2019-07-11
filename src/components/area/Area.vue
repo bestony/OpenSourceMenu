@@ -1,6 +1,6 @@
 <template>
   <div class="area-item">
-    <h2 class="is-size-2 is-uppercase">{{this.area.flag}} {{this.area.lang[lang]}}</h2>
+    <h2 class="is-size-2 is-uppercase">{{this.area.flag}} {{this.area.lang[langCode]}}</h2>
     <hr />
     <div class="container">
       <div class="columns is-multiline">
@@ -8,16 +8,16 @@
           <div class="card">
             <div class="card-image">
               <figure class="image is-16by9">
-                <img :src="item.image" :alt="item.lang[lang].name" />
+                <img :src="item.image" :alt="item.lang[langCode].name" />
               </figure>
             </div>
             <div class="card-content">
               <div class="media">
                 <div class="media-content">
-                  <p class="title is-4">{{item.lang[lang].name}}</p>
+                  <p class="title is-4">{{item.lang[langCode].name}}</p>
                 </div>
               </div>
-              <div class="content">{{item.lang[lang].desc}}</div>
+              <div class="content">{{item.lang[langCode].desc}}</div>
             </div>
             <footer class="card-footer">
               <a :href="item.homepage" target="_blank" class="card-footer-item" v-show="item.homepage">
@@ -55,7 +55,7 @@ export default {
     area: Object
   },
   computed: {
-    lang() {
+    langCode() {
       return this.$store.state.lang;
     }
   }
