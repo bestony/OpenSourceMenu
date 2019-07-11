@@ -1,0 +1,42 @@
+{
+    "id": "tw",
+    "lang": {
+        "en": "Taiwan",
+        "zh-cn": "台湾",
+        "zh-tw": "台湾"
+    },
+    "longitude": "120.9814446419",
+    "latitude": "23.7250114290",
+    "flag": "🇹🇼",
+    "areas": [
+        {
+            "id": "taipei",
+            "lang": {
+                "en": "taipei",
+                "zh-cn": "台北",
+                "zh-tw": "台北"
+            },
+            "longitude": "",
+            "latitude": "",
+            "flag": "😃",
+            "items": [
+                {
+                    "id": "moztw",
+                    "lang": {
+                        "en": {
+                            "name": "Mozilla Taiwan Community",
+                            "desc": "Mozilla Taiwan Community"
+                        }
+                    },
+                    "image": "https://i.loli.net/2019/07/07/5d21ee94a1a5a16575.png",
+                    "homepage": "https://moztw.org/",
+                    "twitter": null,
+                    "facebook": null,
+                    "github": null,
+                    "meetup": null,
+                    "googlegroup":null
+                }
+            ]
+        }
+    ]
+}
