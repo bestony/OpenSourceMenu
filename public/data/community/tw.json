@@ -16,8 +16,8 @@
                 "zh-cn": "台北",
                 "zh-tw": "台北"
             },
-            "longitude": "",
-            "latitude": "",
+            "longitude": "121.579083",
+            "latitude": "25.027301",
             "flag": "😃",
             "items": [
                 {
@@ -28,7 +28,7 @@
                             "desc": "Mozilla Taiwan Community"
                         }
                     },
-                    "image": "https://i.loli.net/2019/07/07/5d21ee94a1a5a16575.png",
+                    "image": "/data/images/moztw.png",
                     "homepage": "https://moztw.org/",
                     "twitter": null,
                     "facebook": null,
@@ -46,7 +46,7 @@
                         }
                     },
                     "homepage": "https://www.meetup.com/Ansible-Taipei/",
-                    "image": "https://i.loli.net/2019/07/07/5d21ee381e03f51359.jpeg",
+                    "image": "/data/images/ansible_taipei.jpeg",
                     "twitter": null,
                     "facebook": null,
                     "github": null,
@@ -63,7 +63,7 @@
                         }
                     },
                     "homepage": "https://www.gdg-taipei.org/",
-                    "image": "https://i.loli.net/2019/07/07/5d21f6fc963d737435.png",
+                    "image": "/data/images/gdg_taipei.png",
                     "twitter": "https://twitter.com/Taipei_GTUG",
                     "facebook": null,
                     "github": null,
@@ -80,13 +80,184 @@
                         }
                     },
                     "homepage": "https://www.facebook.com/groups/arduinotaipei/",
-                    "image": "https://i.loli.net/2019/07/07/5d21f926b33ff50334.jpg",
+                    "image": "/data/images/arduinotaipei.jpg",
                     "twitter": null,
                     "facebook": "https://www.facebook.com/groups/arduinotaipei/",
                     "github": null,
                     "email": null,
                     "meetup": null,
                     "googlegroup": null
+                },
+                {
+                    "id": "igda_share",
+                    "lang": {
+                        "en": {
+                            "name": "IGDA Share",
+                            "desc": "IGDA Share"
+                        }
+                    },
+                    "homepage": "https://igdshare.org/about-en",
+                    "image": "/data/images/igda_share.png",
+                    "twitter": "https://twitter.com/igdshare",
+                    "facebook": "https://www.facebook.com/igdshare",
+                    "github": null,
+                    "email": "igdshare@igdshare.org",
+                    "meetup": null,
+                    "googlegroup": null
+                }
+            ]
+        },
+        {
+            "id": "tainan",
+            "lang": {
+                "en": "Tainan",
+                "zh-cn": "台南",
+                "zh-tw": "台南"
+            },
+            "longitude": "120.190087",
+            "latitude": "23.007896",
+            "flag": "😃",
+            "items": [
+                {
+                    "id": "arduinotainan",
+                    "lang": {
+                        "en": {
+                            "name": "Arduino Tainan",
+                            "desc": "Arduino Tainan"
+                        }
+                    },
+                    "image": "/data/images/arduinotainan.jpg",
+                    "homepage": "https://www.facebook.com/groups/623465754351776/",
+                    "twitter": null,
+                    "facebook": "https://www.facebook.com/groups/623465754351776/",
+                    "github": null,
+                    "meetup": null,
+                    "googlegroup": null,
+                    "email": null
+                }
+            ]
+        },
+        {
+            "id": "taichung",
+            "lang": {
+                "en": "Tai Chung",
+                "zh-cn": "台中",
+                "zh-tw": "台中"
+            },
+            "longitude": "120.663818",
+            "latitude": "24.195765",
+            "flag": "🏀",
+            "items": [
+                {
+                    "id": "timu",
+                    "lang": {
+                        "en": {
+                            "name": "Taichung Indies Meet Up",
+                            "desc": "Taichung Indies Meet Up"
+                        }
+                    },
+                    "image": "/data/images/timu.jpg",
+                    "homepage": "https://www.facebook.com/groups/timu.tw/",
+                    "twitter": null,
+                    "facebook": "https://www.facebook.com/groups/timu.tw/",
+                    "github": null,
+                    "meetup": null,
+                    "googlegroup": null,
+                    "email": null
+                }
+            ]
+        },
+        {
+            "id": "kaohsiung",
+            "lang": {
+                "en": "Kaohsiung",
+                "zh-cn": "高雄",
+                "zh-tw": "高雄"
+            },
+            "longitude": "120.314269",
+            "latitude": "22.633745",
+            "flag": "🏀",
+            "items": [
+                {
+                    "id": "kimugroup",
+                    "homepage": "https://www.facebook.com/groups/kimugroup/",
+                    "image": "https://i.loli.net/2019/07/07/5d21fe1fd6ce268632.jpg",
+                    "twitter": null,
+                    "facebook": "https://www.facebook.com/groups/kimugroup/",
+                    "github": null,
+                    "email": null,
+                    "meetup": null,
+                    "googlegroup":null,
+                    "lang": {
+                        "en": {
+                            "name": "Kaohsiung Indies Meet Up",
+                            "desc": "Kaohsiung Indies Meet Up"
+                        }
+                    }
+                },
+                {
+                    "id": "ksdgroup",
+                    "homepage": "https://www.facebook.com/groups/KSDGroup/",
+                    "image": "/data/images/ksdgroup.jpg",
+                    "twitter": null,
+                    "facebook": "https://www.facebook.com/groups/KSDGroup/",
+                    "github": null,
+                    "email": null,
+                    "meetup": null,
+                    "googlegroup":null,
+                    "lang": {
+                        "en": {
+                            "name": "Kaohsiung Software Developer Group",
+                            "desc": "Kaohsiung Software Developer Group"
+                        }
+                    }
+                },{
+                    "id": "kalug",
+                    "homepage": "https://kalug.linux.org.tw/",
+                    "image": "/data/images/kalug.jpg",
+                    "twitter": null,
+                    "facebook": null,
+                    "github": null,
+                    "email": null,
+                    "meetup": null,
+                    "googlegroup":null,
+                    "lang": {
+                        "en": {
+                            "name": "Kaohsiung Linux User Group",
+                            "desc": "Kaohsiung Linux User Group"
+                        }
+                    }
+                }
+
+            ]
+        },
+        {
+            "id": "hsinchu",
+            "lang": {
+                "en": "Hsinchu",
+                "zh-cn":"新竹",
+                "zh-tw":"新竹"
+            },
+            "longitude": "121.027165",
+            "latitude": "24.799738",
+            "flag": "🎍",
+            "items":[
+                {
+                    "id": "hsinchu.coders",
+                    "homepage": "https://www.facebook.com/groups/hsinchu.coders/",
+                    "image": "/data/images/hsinchu.coders.jpg",
+                    "twitter": null,
+                    "facebook": "https://www.facebook.com/groups/hsinchu.coders/",
+                    "github": null,
+                    "email": null,
+                    "meetup": null,
+                    "googlegroup":null,
+                    "lang": {
+                        "en": {
+                            "name": "Hsinchu Coding Serfs Meeting",
+                            "desc": "Hsinchu Coding Serfs Meeting"
+                        }
+                    }
                 }
             ]
         }
