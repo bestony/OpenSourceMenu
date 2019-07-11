@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <section class="hero is-info is-medium has-text-centered hero-content">
+    <section class="hero is-primary is-medium has-text-centered hero-content">
       <div class="hero-body">
         <div class="container">
           <h1 class="title is-size-1">Opensource Lists</h1>
@@ -18,7 +18,7 @@
         >Opensource Lists ia a Website to find Your Local Opensource community or opensource Company</p>
       </div>
     </section>
-    <section class="count-content has-background-primary">
+    <section class="count-content has-background-light">
       <div class="container">
         <nav class="level">
           <div class="level-item has-text-centered">
