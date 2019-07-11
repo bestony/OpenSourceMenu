@@ -6,7 +6,7 @@
           <h1 class="title is-size-1">Opensource Lists</h1>
           
           <h2 class="subtitle">a website to find opensource community or opensource company</h2>
-          <b-button type="is-light" class="is-size-4" outlined>Find By Your Location</b-button>
+          <router-link to="/community/tw"><b-button type="is-light" class="is-size-4" outlined>Find By Your Location</b-button></router-link>
         </div>
       </div>
     </section>
@@ -24,19 +24,19 @@
           <div class="level-item has-text-centered">
             <div>
               <p class="heading">Country and Area</p>
-              <p class="title">4</p>
+              <p class="title">5</p>
             </div>
           </div>
           <div class="level-item has-text-centered">
             <div>
               <p class="heading">Community</p>
-              <p class="title">1</p>
+              <p class="title">27</p>
             </div>
           </div>
           <div class="level-item has-text-centered">
             <div>
               <p class="heading">Company</p>
-              <p class="title">2</p>
+              <p class="title">0</p>
             </div>
           </div>
           <div class="level-item has-text-centered">
