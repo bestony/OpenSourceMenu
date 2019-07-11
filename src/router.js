@@ -23,6 +23,11 @@ export default new Router({
       component: () => import(/* webpackChunkName: "company" */ './views/Company.vue')
     },
     {
+      path: '/blank',
+      name: 'blank',
+      component: () => import(/* webpackChunkName: "blank" */ './views/Blank.vue')
+    },
+    {
       path: '/:mode/:area',
       name: 'area',
       props: true,

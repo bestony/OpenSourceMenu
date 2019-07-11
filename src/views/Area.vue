@@ -22,9 +22,11 @@ export default {
       }).then(res => {
         this.areaData = JSON.parse(res)
         this.isLoading = false
+      }).catch(res => {
+        this.$router.replace({
+          name:"blank"
+        })
       })
-  },
-  created() {
   }
 };
 </script>
