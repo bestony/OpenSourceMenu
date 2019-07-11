@@ -68,9 +68,15 @@
         <div class="navbar-end">
           <div class="navbar-item">
             <div class="buttons">
-              <b-icon icon="github-circle" size="is-medium"></b-icon>
-              <b-icon icon="twitter" size="is-medium"></b-icon>
-              <b-icon icon="facebook" size="is-medium"></b-icon>
+              <b-button type="is-text" @click="viewGithub">
+                <b-icon icon="github-circle" size="is-medium"></b-icon>
+              </b-button>
+              <b-button type="is-text" @click="shareTwitter">
+                <b-icon icon="twitter" size="is-medium"></b-icon>
+              </b-button>
+              <b-button type="is-text" @click="shareFacebook">
+                <b-icon icon="facebook" size="is-medium"></b-icon>
+              </b-button>
             </div>
           </div>
           <div class="navbar-item">
@@ -79,7 +85,13 @@
                 <span>{{lang}}</span>
                 <b-icon icon="menu-down"></b-icon>
               </button>
-              <b-dropdown-item @click="changeLang(lang.name)" data-id="lang.name" v-for="lang in langList"  v-bind:key="lang.name" aria-role="listitem">{{lang.flag}} {{lang.displayName}}</b-dropdown-item>
+              <b-dropdown-item
+                @click="changeLang(lang.name)"
+                data-id="lang.name"
+                v-for="lang in langList"
+                v-bind:key="lang.name"
+                aria-role="listitem"
+              >{{lang.flag}} {{lang.displayName}}</b-dropdown-item>
             </b-dropdown>
           </div>
         </div>
@@ -120,7 +132,7 @@ export default {
           path: "/company/tw"
         }
       ],
-      aboutList:[
+      aboutList: [
         {
           name: "About",
           path: "/about"
@@ -138,33 +150,47 @@ export default {
           path: "/other"
         }
       ],
-      langList:[
+      langList: [
         {
-          displayName:"English",
-          name:"en",
-          flag:"🇺🇸",
+          displayName: "English",
+          name: "en",
+          flag: "🇺🇸"
         },
         {
-          displayName:"简体中文",
-          name:"zh-cn",
-          flag:"🇨🇳",
+          displayName: "简体中文",
+          name: "zh-cn",
+          flag: "🇨🇳"
         },
         {
-          displayName:"繁体中文",
-          name:"zh-tw",
-          flag:"🇹🇼",
+          displayName: "繁体中文",
+          name: "zh-tw",
+          flag: "🇹🇼"
         }
       ]
     };
   },
   computed: {
-    lang () {
-      return this.$store.state.lang
+    lang() {
+      return this.$store.state.lang;
     }
   },
-  methods:{
-    changeLang(e){
-      this.$store.commit("changeLang",e)  
+  methods: {
+    changeLang(e) {
+      this.$store.commit("changeLang", e);
+    },
+    viewGithub() {
+      window.open("https://twitter.com/intent/tweet?text=${text}");
+    },
+    shareTwitter() {
+      let url = "https://opensourcelists.com/";
+      let text = encodeURIComponent(
+        `Use #OpensourceLists Find my local Open Source Community, by @xiqingongzi ${url}`
+      );
+      window.open(`https://twitter.com/intent/tweet?text=${text}`);
+    },
+    shareFacebook() {
+      let url = "https://opensourcelists.com/";
+      window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`)
     }
   }
 };
