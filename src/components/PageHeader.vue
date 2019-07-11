@@ -51,6 +51,18 @@
               <router-link class="navbar-item" to="/company">More...</router-link>
             </div>
           </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <router-link class="navbar-link" to="/about">About</router-link>
+
+            <div class="navbar-dropdown">
+              <router-link
+                class="navbar-item"
+                :to="about.path"
+                v-bind:key="about.path"
+                v-for="about in aboutList"
+              >{{about.name}}</router-link>
+            </div>
+          </div>
         </div>
 
         <div class="navbar-end">
@@ -106,6 +118,24 @@ export default {
         {
           name: "Taiwan",
           path: "/company/tw"
+        }
+      ],
+      aboutList:[
+        {
+          name: "About",
+          path: "/about"
+        },
+        {
+          name: "Author",
+          path: "/author"
+        },
+        {
+          name: "Build With",
+          path: "/build_with"
+        },
+        {
+          name: "Other Project",
+          path: "/other"
         }
       ],
       langList:[

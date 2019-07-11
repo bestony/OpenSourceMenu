@@ -23,16 +23,36 @@ export default new Router({
       component: () => import(/* webpackChunkName: "company" */ './views/Company.vue')
     },
     {
+      path: '/:mode/:area',
+      name: 'area',
+      props: true,
+      component: () => import(/* webpackChunkName: "area" */ './views/Area.vue')
+    },
+    {
       path: '/blank',
       name: 'blank',
       component: () => import(/* webpackChunkName: "blank" */ './views/Blank.vue')
     },
     {
-      path: '/:mode/:area',
-      name: 'area',
-      props: true,
-      component: () => import(/* webpackChunkName: "area" */ './views/Area.vue')
-    }
+      path: '/about',
+      name: 'about',
+      component: () => import(/* webpackChunkName: "about" */ './views/pages/About.vue')
+    },
+    {
+      path: '/author',
+      name: 'author',
+      component: () => import(/* webpackChunkName: "author" */ './views/pages/Author.vue')
+    },
+    {
+      path: '/build_with',
+      name: 'build_with',
+      component: () => import(/* webpackChunkName: "build_with" */ './views/pages/BuildWith.vue')
+    },
+    {
+      path: '/other',
+      name: 'other_project',
+      component: () => import(/* webpackChunkName: "other_project" */ './views/pages/Other.vue')
+    },
   ],
   scrollBehavior(to) {
     if (to.hash) {
