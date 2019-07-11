@@ -35,7 +35,7 @@ export default {
         this.areaData = JSON.parse(res);
         this.isLoading = false;
       })
-      .catch(res => {
+      .catch(() => {
         this.$router.replace({
           name: "blank"
         });
