@@ -21,26 +21,26 @@
             </div>
             <footer class="card-footer">
               <a :href="item.homepage" target="_blank" class="card-footer-item" v-show="item.homepage">
-                <b-icon icon="home" size="is-medium"></b-icon>
+                <b-icon icon="home" size="is-small"></b-icon>
               </a>
               <a :href="item.email" target="_blank" class="card-footer-item" v-show="item.email">
-                <b-icon icon="email" size="is-medium"></b-icon>
+                <b-icon icon="email" size="is-small"></b-icon>
               </a>
 
               <a :href="item.github" target="_blank" class="card-footer-item" v-show="item.github">
-                <b-icon icon="github-circle" size="is-medium"></b-icon>
+                <b-icon icon="github-circle" size="is-small"></b-icon>
               </a>
               <a :href="item.twitter" target="_blank" class="card-footer-item" v-show="item.twitter">
-                <b-icon icon="twitter" size="is-medium"></b-icon>
+                <b-icon icon="twitter" size="is-small"></b-icon>
               </a>
               <a :href="item.meetup" target="_blank" class="card-footer-item" v-show="item.meetup">
-                <b-icon icon="meetup" size="is-medium"></b-icon>
+                <b-icon icon="meetup" size="is-small"></b-icon>
               </a>
               <a :href="item.facebook" target="_blank" class="card-footer-item" v-show="item.facebook">
-                <b-icon icon="facebook-box" size="is-medium"></b-icon>
+                <b-icon icon="facebook-box" size="is-small"></b-icon>
               </a>
               <a :href="item.googlegroup" target="_blank" class="card-footer-item" v-show="item.googlegroup">
-                <b-icon icon="google-circles-group" size="is-medium"></b-icon>
+                <b-icon icon="google-circles-group" size="is-small"></b-icon>
               </a>
             </footer>
           </div>
