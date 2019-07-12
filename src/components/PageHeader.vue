@@ -106,11 +106,11 @@ export default {
     return {
       communityList: [
         {
-          name: "China Mainland",
+          name: "🇨🇳 China Mainland",
           path: "/community/cn"
         },
         {
-          name: "Hong Kong",
+          name: "🇭🇰 Hong Kong",
           path: "/community/hk"
         },
         {
@@ -120,11 +120,11 @@ export default {
       ],
       companyList: [
         {
-          name: "China Mainland",
+          name: "🇨🇳 China Mainland",
           path: "/company/cn"
         },
         {
-          name: "Hong Kong",
+          name: "🇭🇰 Hong Kong",
           path: "/company/hk"
         },
         {
@@ -134,19 +134,19 @@ export default {
       ],
       aboutList: [
         {
-          name: "About",
+          name: "❤️ About",
           path: "/about"
         },
         {
-          name: "Author",
+          name: "🧡 Author",
           path: "/author"
         },
         {
-          name: "Build With",
+          name: "💛 Build With",
           path: "/build_with"
         },
         {
-          name: "Other Project",
+          name: "💚 Other Project",
           path: "/other"
         }
       ],
