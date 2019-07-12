@@ -35,6 +35,52 @@
                     "email": null
                 }
             ]
-        }
-    ]
+             }
+   "areas": [
+            {
+                "id": "hangzhou",
+                "lang": {
+                    "en": "Hang Zhou"
+                },
+                "longitude": "120.19",
+                "latitude": "30.26",
+                "flag": "💻",
+                "items": [
+                    {
+                        "id": "hangzhou_gdg",
+                        "lang": {
+                            "en": {
+                                "name": "Hang Zhou Google Developer Group",
+                                "desc": "Hang Zhou Google Developer Group"
+                            }
+                        },
+                        "image": "/data/images/hzgdg.jpeg",
+                        "homepage": "https://chinagdg.org/p/gdg-hangzhou/",
+                        "twitter": null,
+                        "facebook": null,
+                        "github": null,
+                        "meetup": "https://www.meetup.com/Hangzhou-GDG/",
+                        "googlegroup": null,
+                        "email": null
+                    }
+                    {
+                        "id": "hangzhou_lug",
+                        "lang": {
+                            "en": {
+                                "name": "Hangzhou Linux User Group",
+                                "desc": "Hangzhou Linux User Group"
+                            }
+                        },
+                        "image": "https://ae01.alicdn.com/kf/HTB13KcracrrK1Rjy1ze760alFXa0.png",
+                        "homepage": "https://hzlug.org",
+                        "twitter": "https://twitter.com/hangzhoulug",
+                        "facebook": "https://www.facebook.com/hzlug/",
+                        "github": "https://github.com/hzlug",
+                        "meetup": null,
+                        "googlegroup": "https://groups.google.com/group/hzlug",
+                        "email": null
+                    }
+                ]
+            }
+        ]
 }
