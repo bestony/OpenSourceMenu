@@ -179,7 +179,7 @@ export default {
       this.$store.commit("changeLang", e);
     },
     viewGithub() {
-      window.open("https://twitter.com/intent/tweet?text=${text}");
+      window.open("https://github.com/bestony/OpensourceLists");
     },
     shareTwitter() {
       let url = "https://opensourcelists.com/";
