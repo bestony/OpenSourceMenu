@@ -15,7 +15,7 @@
         <h1 class="is-size-1 has-text-weight-semibold">Opensource Lists</h1>
         <p
           class="is-size-3"
-        >Opensource Lists ia a Website to find Your Local Opensource community or opensource Company</p>
+        >Opensource Lists is a Website to find Your Local Opensource community or opensource Company</p>
       </div>
     </section>
     <section class="count-content has-background-light">
