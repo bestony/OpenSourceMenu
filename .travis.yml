@@ -13,7 +13,7 @@ deploy:
   github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   keep_history: true
   local_dir: dist
-  fqdn: "opensourcelists.com"
+  fqdn: "opensource.menu"
   name: "Bestony on Travis"
   on:
     branch: master
