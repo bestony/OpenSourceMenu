@@ -67,7 +67,8 @@ meta.json 的内容如下
 			"name": "name in different language",
 			"description": "description in different language"
 		}
-	},
+  },
+  "tags":[],
 	"image": "image of group",
 	"homepage": "home page url",
   "logo":"logo url",
@@ -84,6 +85,7 @@ meta.json 的内容如下
 
 - **id**: 每个数据条目的唯一 ID，必填项。
 - **lang**：该数据条目在不同语言下的信息，必填项。
+- **tags**: 该数据条目为项目的 Tag，需要注意，该项目的值为字符串数组。
 - **image**：该数据条目的图片，图片应为 16:9 的比例，必填项。
 - **homepage**：该数据条目的官网，如果没有官网，则需使用其他项目来填充，如使用 Facebook 主页、Github 主页等链接来替代。必填项。
 - **logo**：该数据条目的 Logo ， Logo 应为 PNG 或 JPG 格式，其比例应为 1:1，如无则填 Null
