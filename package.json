@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "data:lint": "",
+    "data:lint": "node tools/lint-json.js --",
     "data:build": "node tools/build-data.js"
   },
   "dependencies": {
