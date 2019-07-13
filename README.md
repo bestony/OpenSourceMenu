@@ -1,5 +1,7 @@
 # OpenSourceMenu
 
+[![Build Status](https://travis-ci.com/bestony/OpenSourceMenu.svg?branch=master)](https://travis-ci.com/bestony/OpenSourceMenu)
+
 A website to find your local open-source community, open-source group, open-source conference or other things about open source.
 
 ## Getting Started
