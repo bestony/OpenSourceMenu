@@ -1,0 +1,17 @@
+{
+    "id": "hangzhou_gdg",
+    "lang": {
+        "en-US": {
+            "name": "Hang Zhou Google Developer Group",
+            "description": "Hang Zhou Google Developer Group"
+        }
+    },
+    "image": "/data/images/hzgdg.jpeg",
+    "homepage": "https://chinagdg.org/p/gdg-hangzhou/",
+    "twitter": null,
+    "facebook": null,
+    "github": null,
+    "meetup": "https://www.meetup.com/Hangzhou-GDG/",
+    "googlegroup": null,
+    "email": null
+}

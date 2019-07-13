@@ -1,0 +1,18 @@
+{
+    "id": "shenzhen_gdg",
+    "lang": {
+      "en-US": {
+        "name": "Shen Zhen Google Developer Group",
+        "description": "Shen Zhen Google Developer Group"
+      }
+    },
+    "tags":["GDG"],
+    "image": "https://chinagdg.org/wp-content/uploads/2015/07/shenzhen-4-1024x683.jpg",
+    "homepage": "https://chinagdg.org/p/gdg-shenzhen/",
+    "twitter": null,
+    "facebook": null,
+    "github": null,
+    "meetup": "https://www.meetup.com/GDG-Shenzhen/",
+    "googlegroup": "https://groups.google.com/forum/?fromgroups#!forum/shenzhen_gtug",
+    "email": null
+  }
