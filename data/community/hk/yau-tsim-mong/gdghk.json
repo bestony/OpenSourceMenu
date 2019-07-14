@@ -1,0 +1,24 @@
+{
+    "id": "gdghk",
+    "lang": {
+        "en-US": {
+            "name": "Hong Kong Google Developer Group",
+            "description": "Hong Kong Google Developer Group"
+        },
+        "zh-CN": {
+            "name": "香港 GDG",
+            "description": "香港 GDG"
+        }
+    },
+    "tags": [
+        "GDG"
+    ],
+    "image": "/data/images/gdghk.jpg",
+    "homepage": "https://www.gdghk.org/",
+    "twitter": null,
+    "facebook": "https://fb.me/GDGHongKong",
+    "github": null,
+    "meetup": "https://meetup.com/GDG-Hong-Kong/",
+    "googlegroup": "https://groups.google.com/forum/#!forum/hk-gtug",
+    "email": "organizer@gdghk.org"
+}
