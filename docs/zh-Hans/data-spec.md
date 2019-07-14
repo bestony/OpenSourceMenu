@@ -4,6 +4,7 @@
 
 ```
 └── community
+    ├── images
     ├── cn
     │   ├── beijing
     │   ├── hangzhou
@@ -15,7 +16,7 @@
         └── taipei
 ```
 
-Data 目录下区分不同的数据类型，比如 *community* 、*company*、*conference* 等。
+Data 目录下区分不同的数据类型，比如 *community* 、*company*、*conference* 等。其中，images 目录为共用的图片目录，所有用到的图片都需要放在此目录， CI 构建时，会自动将图片复制到 public 目录下。
 
 数据类型的次一级为各国家与地区，国家和地区的格式遵循 [ISO-639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) 规范，但需要使用小写。
 
