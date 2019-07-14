@@ -65,3 +65,5 @@
 当你完成了城市信息的创建后，就可以创建具体的条目了，具体的条目创建请参考上方的说明。
 
 **一个 PR 允许体检 2 组 meta.json  和一组数据的，如果需要提交多个地区，请分不同的 PR 进行**
+
+这一部分，你可以参考 [Pull Request #7](https://github.com/bestony/OpenSourceMenu/pull/7) 的做法来完成。
