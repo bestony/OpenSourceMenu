@@ -1,7 +1,11 @@
 const { rm,cd, cp, mkdir, exec,ShellString,cat,ls,pwd } = require('shelljs');
 const chalk = require('chalk');
 
-// Task One: Build Community Data
+// Task One: Copy Images
+
+cp('-R','data/images','public/data/images');
+console.log(chalk.green("Image File Copy Done"));
+// Task Two: Build Community Data
 
 cd("data/community");
 
