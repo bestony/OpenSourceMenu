@@ -17,7 +17,7 @@
 
 Data 目录下区分不同的数据类型，比如 *community* 、*company*、*conference* 等。
 
-数据类型的次一级为各国家与地区，国家和地区的格式遵循 [ISO-639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) 规范。
+数据类型的次一级为各国家与地区，国家和地区的格式遵循 [ISO-639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) 规范，但需要使用小写。
 
 国家与地区的次一级数据为城市级别，所使用名称应为国际通用名称，而非普通的拼音拼写。
 
@@ -27,13 +27,13 @@ Data 目录下区分不同的数据类型，比如 *community* 、*company*、*c
 
 ## 语言相关的定义
 
-在项目中，必然会涉及到多语言的问题，在多语言的设置中，使用 [RFC5646](https://tools.ietf.org/html/rfc5646) 中所定义的 *Language subtag plus Script subtag* 标签来完成各级数据的定义，如：
+在项目中，必然会涉及到多语言的问题，在多语言的设置中，使用 [RFC 3066](https://www.ietf.org/rfc/rfc3066.txt) 中所定义的格式来完成各级数据的定义，如：
 
-- **zh-Hans** ：简体中文
-- **zh-Hant **：繁体中文
+- **zh-CN** ：简体中文
+- **zh-TW**：台湾中文
 - **en-US**：美国英文
 
-
+代码查询可参考：http://www.i18nguy.com/unicode/language-identifiers.html
 
 ## Meta.json 定义
 
@@ -43,8 +43,8 @@ meta.json 的内容如下
 {
   "id":"beijing",
   "lang":{
-		"zh-Hans":"",
-    "zh-Hant":"",
+		"zh-CN":"",
+    "zh-TW":"",
     "en-US":""
    },
   "flag":"",
