@@ -22,7 +22,11 @@ export default {
     return {
       isLoading: true,
       isFullPage: true,
-      areaData: null
+      areaData: {
+        lang:{
+          
+        }
+      }
     };
   },
   beforeMount() {
