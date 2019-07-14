@@ -37,7 +37,7 @@
               <router-link class="navbar-item" to="/community">More...</router-link>
             </div>
           </div>
-          <div class="navbar-item has-dropdown is-hoverable">
+          <!-- <div class="navbar-item has-dropdown is-hoverable">
             <router-link class="navbar-link" to="/company">Company</router-link>
 
             <div class="navbar-dropdown">
@@ -50,7 +50,7 @@
               <hr class="navbar-divider" />
               <router-link class="navbar-item" to="/company">More...</router-link>
             </div>
-          </div>
+          </div> -->
           <div class="navbar-item has-dropdown is-hoverable">
             <router-link class="navbar-link" to="/about">About</router-link>
 
