@@ -50,7 +50,8 @@
               <hr class="navbar-divider" />
               <router-link class="navbar-item" to="/company">More...</router-link>
             </div>
-          </div> -->
+          </div>-->
+          <a href="https://github.com/bestony/OpenSourceMenu/tree/master/docs" target="_blank" class="navbar-item">Docs</a>
           <div class="navbar-item has-dropdown is-hoverable">
             <router-link class="navbar-link" to="/about">About</router-link>
 
@@ -190,7 +191,11 @@ export default {
     },
     shareFacebook() {
       let url = "https://opensourcelists.com/";
-      window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`)
+      window.open(
+        `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
+          url
+        )}`
+      );
     }
   }
 };

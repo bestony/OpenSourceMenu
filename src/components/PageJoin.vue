@@ -16,7 +16,7 @@
 export default {
   methods:{
     addPage() {
-      window.location="https://github.com/bestony/opensourcelists.com/wiki/Add-new-Community-or-Company"
+      window.location="https://github.com/bestony/OpenSourceMenu/tree/master/docs"
     }
   }
 }
