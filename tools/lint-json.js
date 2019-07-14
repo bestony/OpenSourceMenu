@@ -1,7 +1,8 @@
-const { cat } = require('shelljs');
-require('process')
+const { cat,find,pwd,cd } = require('shelljs');
 
-return IsJsonString(cat(process.argv[3]))
+// require('process')
+
+// return IsJsonString(cat(process.argv[3]))
 
 function IsJsonString(str) {
     try {
@@ -12,3 +13,11 @@ function IsJsonString(str) {
     return true;
 }
 
+cd("./data")
+find('.').filter(file => {
+    return file.match(/\.json$/);
+}).forEach(item => {
+    if(!IsJsonString(item)){
+        return 1
+    }
+})

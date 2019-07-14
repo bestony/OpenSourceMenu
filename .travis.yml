@@ -7,6 +7,7 @@ install:
 script:
   - npm run lint
   - npm run build
+  - sh ./tools/travis.sh
 deploy:
   provider: pages
   skip_cleanup: true
