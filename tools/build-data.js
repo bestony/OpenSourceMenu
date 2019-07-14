@@ -7,7 +7,7 @@ cd("data/community");
 
 console.log(chalk.red("Work Path:",pwd().toString()));
 ls("-d","*").forEach((item) => {
-    // enter area directory 
+    console.log(chalk.yellow("Build For Region:",item));
     cd(item)
     // get CountryInfo
     let countryInfo = JSON.parse(cat('meta.json'))
@@ -20,18 +20,20 @@ ls("-d","*").forEach((item) => {
             dataInfo.items = []
             ls("-d","*").forEach(item=>{
                 if(item !== 'meta.json'){
+                    console.log(chalk.blue("Build For",item));
                     delete dataItem
                     var dataItem = JSON.parse(cat(item));
                     dataInfo.items.push(dataItem)
                 }
             })
             countryInfo.areas.push(dataInfo)
-            cd("..")
+            cd("../")
         }
     })
     var communityData = new ShellString(JSON.stringify(countryInfo));
-    cd("../../..")
-    communityData.to('public/new_communityData.json')
+    cd("..")
+    communityData.to(`../../public/data/community/${item}.json`)
     delete countryInfo;
-
 });
+
+console.log(chalk.green("Data Generate Done"));
