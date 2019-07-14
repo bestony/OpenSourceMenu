@@ -17,7 +17,7 @@
                   <p class="title is-4">{{item.lang[langCode].name}}</p>
                 </div>
               </div>
-              <div class="content">{{item.lang[langCode].desc}}</div>
+              <div class="content">{{item.lang[langCode].description}}</div>
             </div>
             <footer class="card-footer">
               <a :href="item.homepage" target="_blank" class="card-footer-item" v-show="item.homepage">

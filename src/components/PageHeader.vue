@@ -153,17 +153,17 @@ export default {
       langList: [
         {
           displayName: "English",
-          name: "en",
+          name: "en-US",
           flag: "🇺🇸"
         },
         {
           displayName: "简体中文",
-          name: "zh-cn",
+          name: "zh-CN",
           flag: "🇨🇳"
         },
         {
           displayName: "繁体中文",
-          name: "zh-tw",
+          name: "zh-TW",
           flag: "🇹🇼"
         }
       ]

@@ -31,15 +31,15 @@ export default {
       .then(function(response) {
         return response.text();
       })
-      .then(res => {
-        this.areaData = JSON.parse(res);
-        this.isLoading = false;
-      })
       .catch(() => {
         this.$router.replace({
           name: "blank"
         });
-      });
+      })
+      .then(res => {
+        this.areaData = JSON.parse(res);
+        this.isLoading = false;
+      })
   },
   computed: {
     lang() {
