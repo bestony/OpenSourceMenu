@@ -1,8 +1,4 @@
-const { cat,find,pwd,cd } = require('shelljs');
-
-// require('process')
-
-// return IsJsonString(cat(process.argv[3]))
+const { cat,find,cd } = require('shelljs');
 
 function IsJsonString(str) {
     try {
@@ -17,7 +13,9 @@ cd("./data")
 find('.').filter(file => {
     return file.match(/\.json$/);
 }).forEach(item => {
-    if(!IsJsonString(item)){
+    if(!IsJsonString(cat(item))){
+        console.log("Error Parse JSON:",item);
         return 1
     }
 })
+console.log("JSON Validate Done")
