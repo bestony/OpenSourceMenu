@@ -1,6 +1,6 @@
 # OpenSourceMenu
 
-[![Build Status](https://travis-ci.com/bestony/OpenSourceMenu.svg?branch=master)](https://travis-ci.com/bestony/OpenSourceMenu) ![GitHub top language](https://img.shields.io/github/languages/top/bestony/opensourcemenu.svg) ![GitHub issues](https://img.shields.io/github/issues/bestony/opensourcemenu.svg) ![GitHub](https://img.shields.io/github/license/bestony/opensourcemenu.svg) ![GitHub stars](https://img.shields.io/github/stars/bestony/opensourcemenu.svg?style=social) ![GitHub release](https://img.shields.io/github/release/bestony/opensourcemenu.svg) ![Uptime Robot status](https://img.shields.io/uptimerobot/status/m783089425-48c005457949132ce26f506a.svg)
+[![Build Status](https://travis-ci.com/bestony/OpenSourceMenu.svg?branch=master)](https://travis-ci.com/bestony/OpenSourceMenu) ![GitHub last commit](https://img.shields.io/github/last-commit/bestony/opensourcemenu.svg) ![GitHub top language](https://img.shields.io/github/languages/top/bestony/opensourcemenu.svg) ![GitHub issues](https://img.shields.io/github/issues/bestony/opensourcemenu.svg) ![GitHub](https://img.shields.io/github/license/bestony/opensourcemenu.svg) ![GitHub stars](https://img.shields.io/github/stars/bestony/opensourcemenu.svg?style=social) ![GitHub release](https://img.shields.io/github/release/bestony/opensourcemenu.svg) ![Uptime Robot status](https://img.shields.io/uptimerobot/status/m783089425-48c005457949132ce26f506a.svg)
 
 A website to find your local open-source community, open-source group, open-source conference or other things about open source.
 
