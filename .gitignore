@@ -1,6 +1,10 @@
 .DS_Store
 node_modules
 /dist
+/public/data
+/public/data/community/cn.json
+/public/data/community/tw.json
+/public/data/template.json
 
 # local env files
 .env.local
