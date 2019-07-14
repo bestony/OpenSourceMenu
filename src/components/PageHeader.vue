@@ -3,7 +3,7 @@
     <nav class="navbar has-shadow is-spaced" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <router-link class="navbar-item" to="/">
-          <img src="@/assets/logo.png"height="40" />
+          <img src="@/assets/logo.png" height="40" />
         </router-link>
         <a
           role="button"
