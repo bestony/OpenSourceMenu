@@ -1,0 +1,16 @@
+{
+    "id": "webduino",
+    "homepage": "https://www.facebook.com/groups/797598203642584/",
+    "image": "/data/images/webduino.jpg",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/groups/797598203642584/",
+    "github": null,
+    "email": null,
+    "meetup": null,
+    "lang": {
+        "en-US": {
+            "name": "Webduino 技術討論社團",
+            "description": "Webduino 技術討論社團"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": "ksdgroup",
+    "homepage": "https://www.facebook.com/groups/KSDGroup/",
+    "image": "/data/images/ksdgroup.jpg",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/groups/KSDGroup/",
+    "github": null,
+    "email": null,
+    "meetup": null,
+    "googlegroup":null,
+    "lang": {
+        "en-US": {
+            "name": "Kaohsiung Software Developer Group",
+            "description": "Kaohsiung Software Developer Group"
+        }
+    }
+}

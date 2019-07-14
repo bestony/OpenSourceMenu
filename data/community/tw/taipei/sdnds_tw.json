@@ -1,0 +1,16 @@
+{
+    "id": "sdnds_tw",
+    "homepage": "http://sdnds.tw/",
+    "image": "/data/images/sdnds_tw.jpg",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/groups/sdnds.tw/",
+    "github": null,
+    "email": null,
+    "meetup": null,
+    "lang": {
+        "en-US": {
+            "name": "SDN Developer Society",
+            "description": "Taiwan Software Defined Networking Developer Society"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": "moztw",
+    "lang": {
+        "en-US": {
+            "name": "Mozilla Taiwan Community",
+            "description": "Mozilla Taiwan Community"
+        }
+    },
+    "image": "/data/images/moztw.png",
+    "homepage": "https://moztw.org/",
+    "twitter": null,
+    "facebook": null,
+    "github": null,
+    "meetup": null,
+    "googlegroup": null,
+    "email": null
+}

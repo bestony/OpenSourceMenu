@@ -1,0 +1,16 @@
+{
+    "id": "raspberrypi_tw",
+    "homepage": "https://www.raspberrypi.com.tw/",
+    "image": "/data/images/respberrypi_tw.jpg",
+    "twitter": null,
+    "facebook": null,
+    "github": null,
+    "email": "service@raspberrypi.com.tw",
+    "meetup": null,
+    "lang": {
+        "en": {
+            "name": "Raspberry Pi Taiwan",
+            "desc": "Raspberry Pi Taiwan"
+        }
+    }
+}

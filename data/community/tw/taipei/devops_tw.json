@@ -1,0 +1,16 @@
+{
+    "id": "devops_tw",
+    "homepage": "https://www.facebook.com/groups/DevOpsTaiwan/",
+    "image": "/data/images/devops_tw.png",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/groups/DevOpsTaiwan/",
+    "github": null,
+    "email": null,
+    "meetup": null,
+    "lang": {
+        "en-US": {
+            "name": "DevOps Taiwan",
+            "description": "DevOps Taiwan"
+        }
+    }
+}

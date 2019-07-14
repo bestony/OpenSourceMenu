@@ -1,0 +1,17 @@
+{
+    "id": "gdg_taipei",
+    "lang": {
+        "en-US": {
+            "name": "GDG Taipei",
+            "description": "GDG Taipei"
+        }
+    },
+    "homepage": "https://www.gdg-taipei.org/",
+    "image": "/data/images/gdg_taipei.png",
+    "twitter": "https://twitter.com/Taipei_GTUG",
+    "facebook": null,
+    "github": null,
+    "meetup": "https://www.meetup.com/GDGTaipei/",
+    "googlegroup": null,
+    "email": "littleq@gdg-taipei.org"
+}

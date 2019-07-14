@@ -1,0 +1,16 @@
+{
+    "id": "g0v_tw",
+    "homepage": "http://g0v.tw/",
+    "image": "/data/images/g0v.png",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/groups/g0v.general/",
+    "github": null,
+    "email": null,
+    "meetup": null,
+    "lang": {
+        "en-US": {
+            "name": "g0v",
+            "description": "g0v.tw is an online community that pushes information transparency, focusing on developing information platform and tools for the citizens to participate in society. "
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": "kalug",
+    "homepage": "https://kalug.linux.org.tw/",
+    "image": "/data/images/kalug.jpg",
+    "twitter": null,
+    "facebook": null,
+    "github": null,
+    "email": null,
+    "meetup": null,
+    "googlegroup": null,
+    "lang": {
+        "en-US": {
+            "name": "Kaohsiung Linux User Group",
+            "description": "Kaohsiung Linux User Group"
+        }
+    }
+}

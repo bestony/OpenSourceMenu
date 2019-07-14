@@ -1,0 +1,16 @@
+{
+    "id": "openstack_tw_user_group",
+    "homepage": "https://www.facebook.com/OpenStackTW",
+    "image": "/data/images/openstack_tw_user_group.png",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/groups/180981535428325",
+    "github": null,
+    "email": "openstack-tw@lists.openstack.org",
+    "meetup": null,
+    "lang": {
+        "en-US": {
+            "name": "OpenStack Taiwan User Group",
+            "desciption": "OpenStack Taiwan User Group"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": "arduinotaipei",
+    "lang": {
+        "en-US": {
+            "name": "Arduino Taipei",
+            "description": "Arduino Taipei"
+        }
+    },
+    "homepage": "https://www.facebook.com/groups/arduinotaipei/",
+    "image": "/data/images/arduinotaipei.jpg",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/groups/arduinotaipei/",
+    "github": null,
+    "email": null,
+    "meetup": null,
+    "googlegroup": null
+}

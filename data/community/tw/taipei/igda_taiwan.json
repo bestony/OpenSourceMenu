@@ -1,0 +1,17 @@
+{
+    "id": "igda_taiwan",
+    "homepage": "http://igda.tw/#tabs=events",
+    "image": "/data/images/igda_taiwan.png",
+    "twitter": null,
+    "facebook": null,
+    "github": null,
+    "email": "jslin@igda.tw",
+    "meetup": null,
+    "googlegroup": null,
+    "lang": {
+        "en-US": {
+            "name": "International Game Developers Association",
+            "description": "International Game Developers Association"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": "arduinotainan",
+    "lang": {
+        "en-US": {
+            "name": "Arduino Tainan",
+            "description": "Arduino Tainan"
+        }
+    },
+    "image": "/data/images/arduinotainan.jpg",
+    "homepage": "https://www.facebook.com/groups/623465754351776/",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/groups/623465754351776/",
+    "github": null,
+    "meetup": null,
+    "googlegroup": null,
+    "email": null
+}

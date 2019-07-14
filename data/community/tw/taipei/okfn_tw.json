@@ -1,0 +1,16 @@
+{
+    "id": "okfn_tw",
+    "homepage": "https://tw.okfn.org/",
+    "image": "/data/images/okfn_tw.jpg",
+    "twitter": "https://twitter.com/oktaiwanonline",
+    "facebook": "https://www.facebook.com/groups/oktaiwan/",
+    "github": null,
+    "email": null,
+    "meetup": null,
+    "lang": {
+        "en-US": {
+            "name": "Open Knowledge Taiwan",
+            "description": "Open Knowledge Taiwan"
+        }
+    }
+}

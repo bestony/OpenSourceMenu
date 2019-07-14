@@ -1,0 +1,16 @@
+{
+    "id": "study4tw",
+    "homepage": "http://study4.tw",
+    "image": "/data/images/study4tw.jpg",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/Study4.tw",
+    "github": null,
+    "email": null,
+    "meetup": null,
+    "lang": {
+        "en-US": {
+            "name": "Study4Tw",
+            "description": "Study4Tw"
+        }
+    }
+}

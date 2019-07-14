@@ -1,0 +1,11 @@
+{
+    "id": "taipei",
+    "lang": {
+        "en-US": "taipei",
+        "zh-CN": "台北",
+        "zh-TW": "台北"
+    },
+    "longitude": "121.579083",
+    "latitude": "25.027301",
+    "flag": "😃"
+}

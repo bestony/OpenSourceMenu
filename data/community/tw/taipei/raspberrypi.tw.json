@@ -1,0 +1,16 @@
+{
+    "id": "raspberrypi.tw",
+    "homepage": "https://www.facebook.com/groups/raspberrypi.tw/",
+    "image": "/data/images/raspberrypi.tw.jpg",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/groups/raspberrypi.tw/",
+    "github": null,
+    "email": null,
+    "meetup": null,
+    "lang": {
+        "en-US": {
+            "name": "Raspberry Pi@TW",
+            "description": "Raspberry Pi@TW"
+        }
+    }
+}

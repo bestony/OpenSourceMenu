@@ -1,0 +1,17 @@
+{
+    "id": "hsinchu.coders",
+    "homepage": "https://www.facebook.com/groups/hsinchu.coders/",
+    "image": "/data/images/hsinchu.coders.jpg",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/groups/hsinchu.coders/",
+    "github": null,
+    "email": null,
+    "meetup": null,
+    "googlegroup": null,
+    "lang": {
+        "en-US": {
+            "name": "Hsinchu Coding Serfs Meeting",
+            "description": "Hsinchu Coding Serfs Meeting"
+        }
+    }
+}

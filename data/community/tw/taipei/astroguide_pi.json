@@ -1,0 +1,16 @@
+{
+    "id": "astroguide_pi",
+    "homepage": "https://www.facebook.com/groups/1754166918205014/",
+    "image": "/data/images/astroguide_pi.jpg",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/groups/1754166918205014/",
+    "github": null,
+    "email": null,
+    "meetup": null,
+    "lang": {
+        "en-US": {
+            "name": "Astroguide π drift development project",
+            "description": "Astroguide π drift development project"
+        }
+    }
+}

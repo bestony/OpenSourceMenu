@@ -1,0 +1,11 @@
+{
+    "id": "taichung",
+    "lang": {
+        "en-US": "Tai Chung",
+        "zh-CN": "台中",
+        "zh-TW": "台中"
+    },
+    "longitude": "120.663818",
+    "latitude": "24.195765",
+    "flag": "🏀"
+}

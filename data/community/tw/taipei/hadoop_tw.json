@@ -1,0 +1,16 @@
+{
+    "id": "hadoop_tw",
+    "homepage": "https://www.facebook.com/groups/hadoop.tw/",
+    "image": "/data/images/hadoop_tw.jpg",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/groups/hadoop.tw/",
+    "github": null,
+    "email": null,
+    "meetup": null,
+    "lang": {
+        "en-US": {
+            "name": "Hadoop TW",
+            "description": "Taiwan Hadoop User Group"
+        }
+    }
+}

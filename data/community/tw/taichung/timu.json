@@ -1,0 +1,17 @@
+{
+    "id": "timu",
+    "lang": {
+        "en-US": {
+            "name": "Taichung Indies Meet Up",
+            "description": "Taichung Indies Meet Up"
+        }
+    },
+    "image": "/data/images/timu.jpg",
+    "homepage": "https://www.facebook.com/groups/timu.tw/",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/groups/timu.tw/",
+    "github": null,
+    "meetup": null,
+    "googlegroup": null,
+    "email": null
+}

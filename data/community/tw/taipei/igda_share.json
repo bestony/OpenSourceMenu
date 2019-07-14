@@ -1,0 +1,17 @@
+{
+    "id": "igda_share",
+    "lang": {
+        "en-US": {
+            "name": "IGDA Share",
+            "description": "IGDA Share"
+        }
+    },
+    "homepage": "https://igdshare.org/about-en",
+    "image": "/data/images/igda_share.png",
+    "twitter": "https://twitter.com/igdshare",
+    "facebook": "https://www.facebook.com/igdshare",
+    "github": null,
+    "email": "igdshare@igdshare.org",
+    "meetup": null,
+    "googlegroup": null
+}

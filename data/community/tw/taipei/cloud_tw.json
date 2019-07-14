@@ -1,0 +1,16 @@
+{
+    "id": "cloud_tw",
+    "homepage": "http://www.cloudtw.org/",
+    "image": "/data/images/cloud_tw.jpg",
+    "twitter": null,
+    "facebook": "http://www.facebook.com/CloudTW.org",
+    "github": null,
+    "email": "pofeng@gmail.com",
+    "meetup": null,
+    "lang": {
+        "en-US": {
+            "name": "Cloud TW",
+            "description": "Ansible Taipei"
+        }
+    }
+}

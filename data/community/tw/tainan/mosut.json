@@ -1,0 +1,16 @@
+{
+    "id": "mosut",
+    "homepage": "http://mosut.org/",
+    "image": "/data/images/mosut.jpg",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/groups/mosut/",
+    "github": null,
+    "email": null,
+    "meetup": null,
+    "lang": {
+        "en-US": {
+            "name": "Meet Open Source Users in Tainan",
+            "description": "Meet Open Source Users in Tainan"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": "kimugroup",
+    "homepage": "https://www.facebook.com/groups/kimugroup/",
+    "image": "/data/images/kimugroup.jpg",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/groups/kimugroup/",
+    "github": null,
+    "email": null,
+    "meetup": null,
+    "googlegroup":null,
+    "lang": {
+        "en-US": {
+            "name": "Kaohsiung Indies Meet Up",
+            "description": "Kaohsiung Indies Meet Up"
+        }
+    }
+}

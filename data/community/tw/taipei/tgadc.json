@@ -1,0 +1,17 @@
+{
+    "id": "tgadc",
+    "homepage": "https://www.facebook.com/groups/tgadc/",
+    "image": "/data/images/tgadc.jpg",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/groups/tgadc/",
+    "github": null,
+    "email": null,
+    "meetup": null,
+    "googlegroup": null,
+    "lang": {
+        "en-US": {
+            "name": "Taiwan Game App Developer Community",
+            "description": "Taiwan Game App Developer Community"
+        }
+    }
+}

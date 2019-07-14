@@ -1,0 +1,11 @@
+{
+    "id": "kaohsiung",
+    "lang": {
+        "en-US": "Kaohsiung",
+        "zh-CN": "高雄",
+        "zh-TW": "高雄"
+    },
+    "longitude": "120.314269",
+    "latitude": "22.633745",
+    "flag": "🏀"
+}

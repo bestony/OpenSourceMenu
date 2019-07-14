@@ -1,0 +1,17 @@
+{
+    "id": "ansible_taipei",
+    "lang": {
+        "en-US": {
+            "name": "Ansible Taipei",
+            "description": "Ansible Taipei"
+        }
+    },
+    "homepage": "https://www.meetup.com/Ansible-Taipei/",
+    "image": "/data/images/ansible_taipei.jpeg",
+    "twitter": null,
+    "facebook": null,
+    "github": null,
+    "meetup": "https://www.meetup.com/Ansible-Taipei",
+    "googlegroup": null,
+    "email": null
+}

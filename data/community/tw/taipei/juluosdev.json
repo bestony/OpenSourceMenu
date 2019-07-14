@@ -1,0 +1,16 @@
+{
+    "id": "juluosdev",
+    "homepage": "https://www.juluos.org/",
+    "image": "/data/images/juluosdev.jpg",
+    "twitter": null,
+    "facebook": "https://www.facebook.com/groups/224024274384934/",
+    "github": "http://github.com/juluosdev",
+    "email": "ben@staros.mobi",
+    "meetup": null,
+    "lang": {
+        "en-US": {
+            "name": "JuluOSDev",
+            "description": "JuluOSDev"
+        }
+    }
+}
