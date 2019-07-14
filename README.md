@@ -8,6 +8,10 @@ A website to find your local open-source community, open-source group, open-sour
 
 Open [OpenSource.menu](https://opensource.menu)， and enter the type which you want, just like community, group, company, find your country or area, click it, and find your city and your local community, group, company.
 
+## Documents 
+
+All documents place at `docs/` folder. you can view it at [Doucuments](docs/readme.md)
+
 ## Build With
 
 - [Vue](https://github.com/vuejs/vue)
