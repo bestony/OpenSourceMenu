@@ -1,6 +1,12 @@
 const { rm,cd, cp, mkdir, exec,ShellString,cat,ls,pwd } = require('shelljs');
 const chalk = require('chalk');
 
+// Task Zero: mkdir
+
+mkdir("-p","public/data/community");
+
+
+
 // Task One: Copy Images
 
 cp('-R','data/images','public/data/images');
