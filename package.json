@@ -10,6 +10,7 @@
     "data:build": "node tools/build-data.js"
   },
   "dependencies": {
+    "@mdi/font": "^3.8.95",
     "buefy": "^0.7.4",
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
